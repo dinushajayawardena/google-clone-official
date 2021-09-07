@@ -1,13 +1,14 @@
+
 {
   "name": "google-clone",
-  "version": "0.1.0",
-  "description": "",
+  "version": "1.0.0",
+  "description": "Google Clone",
   "keywords": ["google", "clone"],
   "license": "MIT",
-  "author": "dinusha jayawardena <dinusha.g.jayawardena@gmail.com>",
+  "author": "Dinusha Jayawardena <dinushaj@ijse.lk> (ijse.lk)",
   "scripts": {
-    "clean": "rm -rf dist",
-    "build": "parcel build index.html",
+    "clean": "rm -rf docs",
+    "build": "parcel build index.html 404.html --out-dir docs",
     "dev": "parcel index.html --open",
     "start": "npm run build && npm run dev"
   },
