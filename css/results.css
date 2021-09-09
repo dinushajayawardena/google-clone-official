@@ -442,3 +442,20 @@ background-color:white !important;
 .gsc-orderby-container{
   visibility: hidden !important;
 }
+
+@media all and (max-width: 1299px){
+
+  .item-container{
+    
+    margin-left: 120px;
+  }
+
+  .gcse-searchresults-only{
+    margin-left: 120px;
+  }
+
+  .header-logo{
+    margin-left: 75px;
+  }
+
+}
