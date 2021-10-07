@@ -121,6 +121,11 @@
       
   }
 
+  .s16-16-svg{
+    width: 16px;
+    height: 16px;
+  }
+
   .top-header-container__buttons-container{
     margin-bottom: 20px;
       align-items: center;
